@@ -9,13 +9,13 @@ import matplotlib.patches as mpatches
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
-from fpdf import FPDF
-from io import BytesIO
-from PIL import Image
-import base64
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfgen import canvas
-from io import BytesIO
+# from fpdf import FPDF
+# from io import BytesIO
+# from PIL import Image
+# import base64
+# from reportlab.lib.pagesizes import letter
+# from reportlab.pdfgen import canvas
+# from io import BytesIO
 import plotly.graph_objects as go
 
 # Helper function to convert time in "HH:MM A.M./P.M." format to slot-based format
