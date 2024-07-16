@@ -667,7 +667,7 @@ yearly_outage_status = generate_outage_status(outage_schedule, months, n)
 extended_outage_status = yearly_outage_status * 25
 #Read the input file
 
-file_path = 'D:/Internship/CEEW/data/input1.xlsx'
+file_path = './datasets/input1.xlsx'
 
 if n == 1:
     solar_data_sheet = 'Hourly'
@@ -796,7 +796,7 @@ else:  # Custom demand pattern
     st.write("Upload your custom solar generation CSV file:")
     solar_generation='customsolar'
     # Define the path to the sample CSV file
-    sample_file_path = "D:/Internship/CEEW/data/samplesolar.csv"
+    sample_file_path = "./datasets/samplesolar.csv"
 
     # Provide a downloadable sample CSV file from the specified path
     try:
@@ -904,7 +904,7 @@ else:  # Predefined load profiles
     st.write("Upload your custom demand pattern CSV file:")
     
     # Define the path to the sample CSV file
-    sample_file_path = "D:/Internship/CEEW/data/sampleload.csv"
+    sample_file_path = "./datasets/sampleload.csv"
 
     # Provide a downloadable sample CSV file from the specified path
     try:
